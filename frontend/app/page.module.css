@@ -5,99 +5,74 @@
     align-items: center;
     text-align: center;
 }
+.Chapter{
+    text-align: center; 
+    font-weight: normal;
+    color: var(--gray50);
+}
+.LPhiE{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(50, 50, 50);
+    text-shadow: 3px 3px 2px var(--gray50);
+}
+.Quote{
+    text-align: center;
+    font-weight: normal;
+    color: var(--gray30);
 
+}
+.Inc{
+    text-align: center;
+    font-weight: normal;
+}
+.interestForm {
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 9999px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.interestForm:hover {
+    background-color: rgb(16, 5, 100);
+    border-color: rgb(16, 5, 100);
+    color: var(--gray95);
+}
 /* Phone */
 @media (max-width: 426px){
-    .Chapter{
-        text-align: center; 
-        font-weight: normal;
-        font-size: 12px;
-        color: var(--gray50);
-    }
+    .Chapter{ font-size: 12px; }
     .LPhiE{
-        text-align: center;
-        /* font-size: 80px;  */
         font-size: 50px;
-        font-weight: 500;
-        color: var(--dark-cornflower-blue2);
         padding: 0 5%;
-        
     }
-    .Quote{
-        text-align: center; 
+    .Quote{ font-size: 12px; }
+    .Inc{ font-size: 8px; }
+    .interestForm {
+        padding: 6px 12px;
         font-size: 12px;
-        font-weight: normal;
-        color: var(--gray30);
-    }
-    .Inc{
-        text-align: center; 
-        font-size: 8px;
-        font-weight: normal;
+        border: 1px solid black;
     }
 }
 /* Tablet */
 @media (max-width: 768px) and (min-width: 426px){
-    .Chapter{
-        text-align: center; 
-        font-size: 18px;
-        font-weight: normal;
-        color: var(--gray50);
-    }
-
-    .LPhiE{
-        text-align: center;
-        /* font-size: 80px;  */
-        font-size: 60px;
-        font-weight: 500;
-        color: var(--dark-cornflower-blue2);
-    }
-
-    .Quote{
-        text-align: center; 
-        font-size: 20px;
-        font-weight: normal;
-        color: var(--gray30);
-    }
-    .Inc{
-        text-align: center; 
-        font-size: 12px;
-        font-weight: normal;
-    }
+    .Chapter{ font-size: 18px; }
+    .LPhiE{ font-size: 60px; }
+    .Quote{ font-size: 20px; }
+    .Inc{ font-size: 12px; }
 }
 /* Laptop */
 @media /* (max-width: 1440px) and */(min-width: 769px){
-    .Chapter{
-        text-align: center; 
-        font-size: 20px;
-        font-weight: normal;
-        color: var(--gray50);
-    }
-
-    .LPhiE{
-        text-align: center;
-        /* font-size: 80px;  */
-        font-size: 70px;
-        font-weight: 500;
-        color: var(--dark-cornflower-blue2);
-    }
-
-    .Quote{
-        text-align: center; 
-        font-size: 25px;
-        font-weight: normal;
-        color: var(--gray30);
-    }
-    .Inc{
-        text-align: center; 
-        font-size: 16px;
-        font-weight: normal;
-    }
+    .Chapter{ font-size: 20px; }
+    .LPhiE{ font-size: 70px; }
+    .Quote{ font-size: 25px; }
+    .Inc{ font-size: 16px; }
 }
 /* The Big One */
 @media (max-width: 2560px) and (min-width: 1440px) {
 
 }
-
-
-
 

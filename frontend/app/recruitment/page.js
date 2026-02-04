@@ -5,8 +5,8 @@ export default function Recruitment(){
     return(
         <div className={styles.recruitmentContent}>
             <div className={styles.recruitmentImage}>
-                <Image src="/Recruitment1.jpg" width={1080} height={1080}/>
-                <Image src="/Recruitment2.jpg" width={1080} height={1080}/>
+                <Image src="/Recruitment1.jpg" width={1080} height={1350}/>
+                <Image src="/Recruitment2.jpg" width={1080} height={1350}/>
             </div>
             <h2 className={styles.header1}>Frequently Asked Questions</h2>
             <div className={styles.whitebox}>

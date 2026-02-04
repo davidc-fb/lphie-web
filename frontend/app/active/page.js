@@ -1,10 +1,12 @@
 import styles from "./page.module.css";
 
 export default async function Active(){
-    // const response = await fetch('http://localhost:5000/active');
+    // For npm run dev
+    // const response = await fetch('http://localhost:8000/active');
+    // For docker compose
     const response = await fetch(`${process.env.API_URL}/active`);
+
     const active = await response.json();
-    // console.log(active)
 
     return(
         <div>

@@ -22,6 +22,7 @@
   --gray90: hsl(0, 0%, 90%);
   --gray95: hsl(0, 0%, 95%);
 
+  --royal-blue0: rgb(20, 45, 255);
   --royal-blue1: hsl(240, 95.4%, 34.1%);
   --royal-blue2: hsl(240, 95.4%, 40.5%);
   --royal-blue3: hsl(240, 95.4%, 46.8%);
@@ -71,11 +72,10 @@ h1{
 }
 h2{
   line-height: 30px;
-  
+
 }
 h3{
   line-height: 24px;
-
 }
 p{
   line-height: 20px;
@@ -83,8 +83,6 @@ p{
 .tmpFooter{
   height: 150px;
 }
-
-
 
 @media (prefers-color-scheme: dark) {
   html {

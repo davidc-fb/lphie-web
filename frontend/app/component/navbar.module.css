@@ -1,7 +1,7 @@
 /* Lambda Phi Epsilon */
 .lphie{
     display: flex;              /* Important */
-    height: 3rem;                /* Height of Image */
+    height: 3rem;               /* Height of Image */
     justify-content: center;    /* Horizontal center */
     align-items: center;        /* Vertical center */
 }
@@ -11,7 +11,20 @@
     display: flex;                                  /* Important */
     justify-content: center;                        /* Horizontal center */
     align-items: center;                            /* Vertical center */
-    background-color: var(--dark-cornflower-blue3); /* Color */
+    background-color: black /* Color */
+    /* background-color: var(--dark-cornflower-blue3); */
+}
+.link{
+    color: rgb(225, 225, 225);
+    /* color: var(--gray50); */
+}
+.link:hover{
+    text-decoration: underline;
+}
+.active{
+    /* color: white; */
+    color: var(--royal-blue0);
+    text-decoration: underline;
 }
 
 /* Tablet- */
@@ -26,15 +39,9 @@
     /* Link Status */
     .link{
         font-size: var(--margin-m);
-        color: var(--gray50);
-    }
-    .link:hover{
-        text-decoration: underline;
     }
     .active{
         font-size: var(--margin-m);
-        color: white;
-        text-decoration: underline;
     }
 }
 /* Laptop+ */
@@ -56,17 +63,13 @@
     .link{
         padding: var(--margin-l);
         font-size: var(--margin-l);
-        color: var(--gray50);
     }
     .link:hover{
-        text-decoration: underline;
         transition: 500ms;
     }
     .active{
         font-size: 20px;
         padding: var(--margin-l);
-        color: white;
-        text-decoration: underline;
     }
 }
 

@@ -3,8 +3,11 @@ import styles from "./page.module.css";
 
 
 export default async function Roster(){
+    // For npm run dev
     // const response = await fetch('http://localhost:8000/roster');
+    // For docker compose
     const response = await fetch(`${process.env.API_URL}/roster`);
+    
     const roster = await response.json();
     return(
         <div>
