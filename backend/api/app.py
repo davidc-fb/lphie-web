@@ -83,12 +83,15 @@ class ActiveResource(Resource):
             bro_i_obj = brother_lookup.get(p.bro_i)
             bro_ii_obj = brother_lookup.get(p.bro_ii)
             bro_iii_obj = brother_lookup.get(p.bro_iii)
+            bro_iv_obj = brother_lookup.get(p.bro_iv)
+
             position_dict = {
                 "pos_id": p.pos_id,
                 "title": p.title,
                 "bro_i": bro_i_obj, 
                 "bro_ii": bro_ii_obj,
                 "bro_iii": bro_iii_obj,
+                "bro_iv": bro_iv_obj,
                 "executive": p.executive
             }
             result_data.append(position_dict)
